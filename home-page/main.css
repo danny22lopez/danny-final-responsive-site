@@ -1,0 +1,138 @@
+/* All of the initial code was created from a small mobile view for the range of 320px to 375px */
+
+@import "../general-css/header.css"; 
+@import "../general-css/footer.css";
+@import "../general-css/nav.css";
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+  }
+
+
+li {
+    padding-left: .45em;
+    padding-right: .45em; 
+}
+
+
+img {
+    height: 30%;
+    width: 30%; 
+}
+
+.box, a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-image {
+    background-color: #3578E5;
+    width: 40%;
+
+}
+
+figcaption {
+    font-size: 1.1em; 
+    background-color: orange; 
+    color: white;
+    font-weight: bold; 
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+button {
+   
+    background-color: orange;  
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em; 
+}
+
+
+
+/* Media query for medium and large phones */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .blog-image {
+        background-color: #3578E5;
+        width: 60%;
+    }
+
+    nav li {
+        font-size: 1.5em; 
+    }
+
+    header {
+        font-size: 2em; 
+    }
+
+    figcaption {
+        font-size: 1.5em; 
+        background-color: orange; 
+        color: white; 
+    }
+}
+
+/* Media query for tablet */
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+     .blog-image {
+         width: 70%; 
+     }
+
+     nav li {
+        font-size: 2em;
+     }
+
+     header {
+        font-size: 2.5em; 
+    }
+
+    footer {
+        font-size: 1.3em; 
+    }
+
+    figcaption {
+        font-size: 1.5em; 
+    }
+}
+
+
+/* Media query for desktop */
+
+@media only screen and (min-width: 1024px) {
+    .blog-image {
+        width: 70%; 
+    }
+
+    nav li {
+       font-size: 2em;
+    }
+
+    header {
+       font-size: 2.5em; 
+   }
+
+   footer {
+       font-size: 1.3em; 
+   }
+
+   figcaption {
+       font-size: 1.5em; 
+   }
+}

@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: center; 
+    background-color: #3578E5;
+    color: white;  
+    padding: 5px; 
+    font-family: 'PT Sans Narrow', sans-serif;
+
+} 
